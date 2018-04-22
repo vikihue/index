@@ -1,0 +1,593 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>.vikibk - A web application developer</title>
+    <meta name="description" content="Web Application developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/logo/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo/favicon.png">
+
+   <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+    <link rel="stylesheet" href="css/YTPlayer.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="js/revolutionslider/css/settings.css" />
+    <link rel="stylesheet" href="js/revolutionslider/css/navigation.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Particle css -->
+    <style>
+        .count-particles {
+            background: #000022;
+            position: absolute;
+            top: 48px;
+            left: 0;
+            width: 80px;
+            color: #13E8E9;
+            font-size: .8em;
+            text-align: left;
+            text-indent: 4px;
+            line-height: 14px;
+            padding-bottom: 2px;
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: bold;
+        }
+        
+        .js-count-particles {
+            font-size: 1.1em;
+        }
+        
+        #stats,
+        .count-particles {
+            -webkit-user-select: none;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+        
+        #stats {
+            border-radius: 3px 3px 0 0;
+            overflow: hidden;
+        }
+        
+        .count-particles {
+            border-radius: 0 0 3px 3px;
+        }
+    </style>
+    <!-- /Particle css -->
+
+</head>
+
+<body>
+    <!-- Pageloader -->
+    <div class="page-loader">
+        <div class="loader">
+            <div class='loader-style-1 panelLoad'>
+                <div class='cube-face cube-face-front'>v</div>
+                <div class='cube-face cube-face-back'>i</div>
+                <div class='cube-face cube-face-left'>k</div>
+                <div class='cube-face cube-face-right'>i</div>
+                <div class='cube-face cube-face-bottom'>b</div>
+                <div class='cube-face cube-face-top'>k</div>
+            </div>
+            <!-- /Cube panelload -->
+            <span class="cube-face">.vikibk</span>
+        </div>
+        <!-- /loader -->
+    </div>
+    <!-- /Page-loader -->
+
+    <!-- Screen Frame -->
+    <div class="screen-frame">
+        <div class="bar-top"></div>
+        <div class="bar-btm"></div>
+        <div class="bar-left"></div>
+        <div class="bar-right"></div>
+    </div>
+    <!-- /screen frame -->
+
+    <!-- Navigation -->
+    <nav class="main-nav op-nav menu-light menu-transparent js-transparent">
+        <div class="container">
+            <div class="navbar">
+
+                <div class="brand-logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo/logo.png" alt="vikibk">
+                    </a>
+                </div>
+                <!-- brand-logo -->
+
+                <div class="navbar-header">
+                    <div class="inner-nav right-nav">
+                        <ul>
+                            <li class="navbar-toggle">
+                                <button type="button" data-toggle="collapse" data-target=".collapse">
+                                    <span class="sr-only"></span>
+                                    <i class="ti-menu"></i>
+                                </button>
+                            </li>
+                            <!-- /collapse-menu -->
+                        </ul>
+                      
+                    </div>
+                    <!-- /right-nav -->
+                </div>
+                <!-- navbar-header -->
+
+                <div class="custom-collapse navbar-collapse collapse inner-nav">
+                    <ul class="nav navbar-nav">
+                        <li><a class="scroll-to" href="#home">Home</a></li>
+                        <li><a class="scroll-to" href="#services">Services</a></li>
+                        <li><a class="scroll-to" href="#about">About</a></li>
+                        <li><a class="scroll-to" href="#portfolio">Portfolio</a></li>
+                        <li><a class="scroll-to" href="#contact">contact</a></li>
+                    </ul>
+                    <!-- /nav -->
+                </div>
+                <!-- /collapse -->
+            </div>
+            <!-- /navbar -->
+        </div>
+        <!-- /container -->
+    </nav>
+    <!--/#Navigation-->
+
+    <!-- Full Screen Image Parallax -->
+    <header id="home">
+        <div class="fs-img-parallax parallax parallax-overlay-dark" style="background-image:url(images/background/img-parallax-1.jpg)">
+            <div class="hero-caption caption-center caption-height-center container">
+                <h2 class="hero-heading text-xform-none">this is Viki</h2>
+                <p class="hero-text-alt text-white">I create beautiful &amp; functional websites for small businesses and corporate.
+                    <br class="hidden-xs">I am a dreamer and a fanatic of all digital things. </p>
+                <a class="scroll-to btn btn-md btn-style-3 mrg-top-15" href="#services">Discover</a>
+            </div>
+            <!-- /hero-caption -->
+            <div id="particles-js"></div>
+        </div>
+        <!-- /fs-img-parallax -->
+    </header>
+    <!--/#Full Screen Image Parallax -->
+
+    <!-- Services -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="heading">What i can do for you</h2>
+            <div class="row mrg-top-70">
+                <div class="infography col-md-4 col-sm-12 col-xs-12">
+                    <div class="infography-style-2 text-center">
+                        <div class="infography-icon">
+                            <i class="ti-alarm-clock"></i>
+                        </div>
+                        <!-- /infography-icon -->
+                        <h4>UI / UX Design</h4>
+                        <p class="mrg-top-15">UI/UX involves planning and iterating a site's structure and layout. Once the proper information architecture is in place, I design the visual layer to create a beautiful user experience.</p>
+                    </div>
+                    <!-- /infography-style-2 -->
+                </div>
+                <!-- /infography -->
+    
+                <div class="infography col-md-4 col-sm-12 col-xs-12">
+                    <div class="infography-style-2 text-center">
+                        <div class="infography-icon">
+                            <i class="ti-camera"></i>
+                        </div>
+                        <!-- /infography-icon -->
+                        <h4>Development</h4>
+                        <p class="mrg-top-15">Responsive development will help make your website easily accessible across all devices. Using Angular, HTML5, CSS , and Javascript, I build fast, interactive websites. This also may include integrating a CMS.</p>
+                    </div>
+                    <!-- /infography-style-2 -->
+                </div>
+                <!-- /infography -->
+    
+                <div class="infography col-md-4 col-sm-12 col-xs-12">
+                    <div class="infography-style-2 text-center">
+                        <div class="infography-icon">
+                            <i class="ti-money"></i>
+                        </div>
+                        <!-- /infography-icon -->
+                        <h4>Search Engine Optimization</h4>
+                        <p class="mrg-top-15">Improve your SEO strategy substantially increase traffic flow to your website exponentially. It's important to keep your brand consistent and recognizable across all platforms.</p>
+                    </div>
+                    <!-- /infography-style-2 -->
+                </div>
+                <!-- /infography -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- /container -->
+    </section>
+    <!-- /Services -->
+
+    <!-- About -->
+    <div id="about" class="split-box section-no-btm">
+        <div class="image-container col-md-6 ">
+            <div class="background-holder has-content parallax-overlay-dark" style="background-image: url(images/background/bg-1.jpg)"></div><!-- /background-holder -->
+        </div>
+        <!-- column -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-6 bg-gray">
+                    <div class="content">
+                        <h2 class="heading-left">About Viki</h2>
+                        <p class="sub-heading-left mrg-top-50">I write regularly about code, travel &amp; life.</p>
+                        <p>Since graduating with a BCS in Information System from University Malaysia Sarawak in 2014, I focused my professional career on website development and almost exclusive front-end design. I get to involve in whole stages of the development cycle for static and dynamic digital projects.</p>
+                        <p>I am interested in web scripting language (HTML5, CSS3, JavaScript, jQuery, Bootstrap, AngularJS, NodeJS, PHP, XML, PostgresQL), WordPress and SEO. I strive to build impressive and beautiful web applications through carefully crafted code and user-centric design.</p>
+                        <p>Outside of work I love to travel the world. Currently I am not taking on new clients, but I love to get coffee and get to know you, so don’t hesitate to get in touch.</p>
+                    </div>
+                    <!-- /content -->
+                </div>
+                <!-- /column -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container-fluid -->
+    </div>
+    <!-- /About -->
+    
+       <!-- Testimonial -->
+    <section id="testimonial" class="section-2 bg-dark">
+        <div class="container">
+            <div class="clients-2">
+                 <div class="col-sm-3 col-xs-6 clients-logo no-border"><img class="img-responsive mrg-horizon-auto" src="images/client/1-light.png" alt=""></div><!-- /column -->
+                 <div class="col-sm-3 col-xs-6 clients-logo no-border"><img class="img-responsive mrg-horizon-auto" src="images/client/2-light.png" alt=""></div><!-- /column -->
+                 <div class="col-sm-3 col-xs-6 clients-logo no-border"><img class="img-responsive mrg-horizon-auto" src="images/client/3-light.png" alt=""></div><!-- /column -->
+                 <div class="col-sm-3 col-xs-6 clients-logo no-border"><img class="img-responsive mrg-horizon-auto" src="images/client/4-light.png" alt=""></div><!-- /column -->
+                 <div class="col-sm-3 col-xs-6 clients-logo no-border"><img class="img-responsive mrg-horizon-auto" src="images/client/5-light.png" alt=""></div><!-- /column -->
+                 <div class="col-sm-3 col-xs-6 clients-logo no-border"><img class="img-responsive mrg-horizon-auto" src="images/client/6-light.png" alt=""></div><!-- /column -->
+                 <div class="col-sm-3 col-xs-6 clients-logo no-border"><img class="img-responsive mrg-horizon-auto" src="images/client/7-light.png" alt=""></div><!-- /column -->
+                 <div class="col-sm-3 col-xs-6 clients-logo no-border"><img class="img-responsive mrg-horizon-auto" src="images/client/9-light.png" alt=""></div><!-- /column -->
+            </div><!-- /clients-2 -->
+        </div><!-- container-fluid -->
+    </section><!-- /#testimonial -->
+
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="heading">Portfolio</h2>
+            <p class="sub-heading">Samples of some of my work from the past year.</p>
+            <p class="text-center">My current toolset is coding these UIs in Sublime Text, Bootstrap, jQuery, NodeJS and PHP.</p>
+
+            <div class="portfolio portfolio-isotope masonry col-3 gutter mrg-top-50">
+                <div class="folio-item video web branding">
+                    <div class="folio-style-1">
+                        <div class="folio-image">
+                            <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
+                        </div>
+                        <!-- folio-image -->
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <div class="overlay-content">
+                                    <div class="folio-info"> <div class="folio-links">
+                                        <a href="portfolio-aviva.html">
+                                        <h3 class="text-white">Aviva Asia <br/>Digital Projects</h3><i class="ti-link"></i></a>
+                                    </div>
+                                    <!-- /folio-info -->
+                                  
+                                    </div><!-- folio-links -->
+                                </div><!-- /overlay-content -->
+                            </div><!-- /overlay-caption -->
+                        </div><!-- /overlay -->
+                    </div><!-- /folio-style -->
+                </div><!-- /folio-item -->
+
+                <div class="folio-item video graphic">
+                    <div class="folio-style-1">
+                        <div class="folio-image">
+                            <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+                        </div>
+                        <!-- folio-image -->
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <div class="overlay-content">
+                                     <div class="folio-info"> <div class="folio-links">
+                                        <a href="portfolio-117.html">
+                                        <h3 class="text-white">Media &amp; Entertainment <br/>Projects</h3><i class="ti-link"></i></a>
+                                    </div>
+                                    <!-- /folio-info -->
+                                    </div><!-- folio-links -->
+                                </div><!-- /overlay-content -->
+                            </div><!-- /overlay-caption -->
+                        </div><!-- /overlay -->
+                    </div><!-- /folio-style -->
+                </div><!-- /folio-item -->
+
+                <div class="folio-item web graphic">
+                    <div class="folio-style-1">
+                        <div class="folio-image">
+                            <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+                        </div>
+                        <!-- folio-image -->
+                         <div class="overlay">
+                            <div class="overlay-caption">
+                                <div class="overlay-content">
+                                     <div class="folio-info"> <div class="folio-links">
+                                        <a href="portfolio-fpi.html">
+                                        <h3 class="text-white">Friends Provident International</h3><i class="ti-link"></i></a>
+                                    </div>
+                                    <!-- /folio-info -->
+                                    </div><!-- folio-links -->
+                                </div><!-- /overlay-content -->
+                            </div><!-- /overlay-caption -->
+                        </div><!-- /overlay -->
+                    </div><!-- /folio-style -->
+                </div><!-- /folio-item -->
+
+                <div class="folio-item video branding">
+                    <div class="folio-style-1">
+                        <div class="folio-image">
+                            <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+                        </div>
+                        <!-- folio-image -->
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <div class="overlay-content">
+                                     <div class="folio-info"> <div class="folio-links">
+                                        <a href="portfolio-ccs.html">
+                                        <h3 class="text-white">Pop Culture <br/> Collectible  Brands <br/> Projects</h3><i class="ti-link"></i></a>
+                                    </div>
+                                    <!-- /folio-info -->
+                                    </div><!-- folio-links -->
+                                </div><!-- /overlay-content -->
+                            </div><!-- /overlay-caption -->
+                        </div><!-- /overlay -->
+                    </div><!-- /folio-style -->
+                </div><!-- /folio-item -->
+
+                      
+                 <div class="folio-item web">
+                    <div class="folio-style-1">
+                        <div class="folio-image">
+                            <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+                        </div>
+                        <!-- folio-image -->
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <div class="overlay-content">
+                                     <div class="folio-info"> <div class="folio-links">
+                                        <a href="portfolio-apcc.html">
+                                        <h3 class="text-white">Pop Culture <br/>Convention Projects</h3><i class="ti-link"></i></a>
+                                    </div>
+                                    <!-- /folio-info -->
+                                    </div><!-- folio-links -->
+                                </div><!-- /overlay-content -->
+                            </div><!-- /overlay-caption -->
+                        </div><!-- /overlay -->
+                    </div><!-- /folio-style -->
+                </div><!-- /folio-item -->
+                
+
+                
+                  <div class="folio-item branding graphic">
+                    <div class="folio-style-1">
+                        <div class="folio-image">
+                            <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+                        </div>
+                        <!-- folio-image -->
+                       <div class="overlay">
+                            <div class="overlay-caption">
+                                <div class="overlay-content">
+                                     <div class="folio-info"> <div class="folio-links">
+                                        <a href="portfolio-gg.html">
+                                        <h3 class="text-white">Lifestyle &amp; Fitness <br/>Projects</h3><i class="ti-link"></i></a>
+                                    </div>
+                                    <!-- /folio-info -->
+                                    </div><!-- folio-links -->
+                                </div><!-- /overlay-content -->
+                            </div><!-- /overlay-caption -->
+                        </div><!-- /overlay -->
+                    </div><!-- /folio-style -->
+                </div><!-- /folio-item -->
+                
+        
+                <div class="folio-item web branding">
+                    <div class="folio-style-1">
+                        <div class="folio-image">
+                            <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+                        </div>
+                        <!-- folio-image -->
+                        <div class="overlay">
+                            <div class="overlay-caption">
+                                <div class="overlay-content">
+                                     <div class="folio-info"> <div class="folio-links">
+                                        <a href="portfolio-rtt.html">
+                                        <h3 class="text-white">Rethink Technology</h3><i class="ti-link"></i></a>
+                                    </div>
+                                    <!-- /folio-info -->
+                                    </div><!-- folio-links -->
+                                </div><!-- /overlay-content -->
+                            </div><!-- /overlay-caption -->
+                        </div><!-- /overlay -->
+                    </div><!-- /folio-style -->
+                </div><!-- /folio-item -->
+
+               
+
+            </div><!-- /portfolio -->
+        </div><!-- /container -->
+    </section><!-- /#Portfolio -->
+   
+    <!-- Footer -->
+    <footer id="contact" class="bg-dark pdd-btm-30">
+         <div class="container section">
+            <h2 class="heading-left">Get in touch</h2>
+   
+                <div class="abou-us-widget mrg-top-50 mrg-bottom-50">
+                    <img class="img-responsive" src="images/logo/logo2.png" alt="">
+                    <p class="mrg-vertical-15">Interested in doing a project together?</p>
+                    
+                </div>
+                 
+                 <div class="contact-form-1">
+                <div class="mrg-top-50">
+
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="contact-item">
+                            <i class="ti-mobile text-white"></i>
+                            <div class="contact-info">
+                                <h4 class="tittle">Phone</h4>
+                                <p>+65 86721311</p>
+                            </div>
+                            <!-- /contact-info -->
+                        </div>
+                        <!-- /contact-item -->
+                    </div>
+                    <!-- /column -->
+
+                    <div class="col-sm-4 col-lg-4">
+                       <div class="contact-item">
+                            <i class="ti-email text-white"></i>
+                            <div class="contact-info">
+                                <h4 class="tittle">Email</h4>
+                                <p>vikihue@yahoo.com</p>
+                            </div>
+                            <!-- /contact-info -->
+                        </div>
+                        <!-- /contact-item -->
+                    </div>
+                    <!-- /column -->
+
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="contact-item">
+                            <i class="ti-desktop text-white"></i>
+                            <div class="contact-info">
+                                <h4 class="tittle">Social Media</h4>
+                                <div class="social-icon">
+                    <a href="https://www.facebook.com/viki.hue"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/viki-boon-kee-hue-4a41719b/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/vikihue/"><i class="fa fa-github"></i></a>
+                </div>
+                            </div>
+                            <!-- /contact-info -->
+                        </div>
+                        <!-- /contact-item -->
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /contact-item-wrapper -->
+            </div>
+            <!-- /contact-form-1 -->
+              
+         </div><!--/.container-->
+         <div class="footer-bottom">
+            <div class="container">
+                <small class="copyright pull-left">© 2018 <strong>.vikibk</strong> All right reserved.</small>
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- footer-bottom -->
+    </footer>
+    
+    <!-- Back to top -->
+    <a href="#" id="back-to-top" title="Back to top"><i class="ti-angle-up"></i></a>
+    <!-- /Back to top -->
+
+    <!-- Java Script -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <!-- particleground -->
+    <script type="text/javascript" src="js/jquery.particleground.js"></script>
+    <script>
+        particlesJS("particles-js", {
+		    "particles": {
+				"number": {
+					"value":43, "density": {
+						"enable": true, "value_area": 500
+					}
+				}
+				, "color": {
+					"value": "#ffffff"
+				}
+				, "shape": {
+					"type":"circle", "stroke": {
+						"width": 0, "color": "#070707"
+					}
+					, "polygon": {
+						"nb_sides": 4
+					}
+					, "image": {
+						"src": "img/github.svg", "width": 100, "height": 100
+					}
+				}
+				, "opacity": {
+					"value":0.5, "random":false, "anim": {
+						"enable": false, "speed": 1, "opacity_min": 0.1, "sync": false
+					}
+				}
+				, "size": {
+					"value":2, "random":false, "anim": {
+						"enable": false, "speed": 40, "size_min": 0.1, "sync": false
+					}
+				}
+				, "line_linked": {
+					"enable": true, "distance": 126.26362266116361, "color": "#ffffff", "opacity": 0.4, "width": 1
+				}
+				, "move": {
+					"enable":true, "speed":3, "direction":"none", "random":true, "straight":false, "out_mode":"out", "bounce":false, "attract": {
+						"enable": true, "rotateX": 600, "rotateY": 1200
+					}
+				}
+			}
+			, "interactivity": {
+				"detect_on":"canvas", "events": {
+					"onhover": {
+						"enable": true, "mode": "grab"
+					}
+					, "onclick": {
+						"enable": true, "mode": "push"
+					}
+					, "resize":true
+				}
+				, "modes": {
+					"grab": {
+						"distance":133.99274002972194, "line_linked": {
+							"opacity": 0.5261837109713353
+						}
+					}
+					, "bubble": {
+						"distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3
+					}
+					, "repulse": {
+						"distance": 200, "duration": 0.4
+					}
+					, "push": {
+						"particles_nb": 4
+					}
+					, "remove": {
+						"particles_nb": 2
+					}
+				}
+			}
+			, "retina_detect":true
+		}
+		
+		);
+    </script>
+    <!-- /particleground -->
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

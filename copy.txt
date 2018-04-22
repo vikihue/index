@@ -1,0 +1,12 @@
+DEVELOPMENT
+
+Responsive development will help make your website easily accessible across all devices
+
+FRONT END DEVELOPMENT
+Front End Development is building out the visual components of a website. Using HTML, CSS , and Javascript, I build fast, interactive websites. This also may include integrating a CMS.
+
+
+Aviva Digital Project
+
+Aviva is a leading composite insurer with a respected global brand and headquarter based in London, United Kingdom. 
+They running numerous digital project offer home, travel and car insurance, life and health plans, and savings and investment solutions.
